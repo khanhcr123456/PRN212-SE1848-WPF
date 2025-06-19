@@ -1,0 +1,23 @@
+﻿<Window x:Class="RadioButtonControl_Bai3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RadioButtonControl_Bai3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Bạn Thấy Hệ Thống Này Thế Nào?" HorizontalAlignment="Left" Margin="190,28,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <Label Content="Giới Tính Của Bạn Là Gì?" HorizontalAlignment="Left" Margin="190,159,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <RadioButton x:Name="radRatTot" GroupName="hethong" Content="Rất Tốt" HorizontalAlignment="Left" Margin="226,63,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <RadioButton x:Name="radTot" GroupName="hethong"  Content="Tốt" HorizontalAlignment="Left" Margin="226,87,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <RadioButton x:Name="radTamDuoc" GroupName="hethong"  Content="Tạm Được " HorizontalAlignment="Left" Margin="226,111,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <RadioButton x:Name="radKhongTot" GroupName="hethong"  Content="Không Tốt" HorizontalAlignment="Left" Margin="226,135,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <RadioButton x:Name="radNam" GroupName="gioitinh"  Content="Nam" HorizontalAlignment="Left" Margin="226,194,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <RadioButton x:Name="radNu" GroupName="gioitinh" Content="Nữ" HorizontalAlignment="Left" Margin="226,218,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" FontSize="15"/>
+        <Button x:Name="btnGui" Content="Gửi Phản Hồi" Margin="202,277,455,0" VerticalAlignment="Top" FontSize="15" Click="btnGui_Click"/>
+        <Button x:Name="btnHuy" Content="Hủy" HorizontalAlignment="Left" Margin="351,277,0,0" VerticalAlignment="Top" FontSize="15" Width="135" Click="btnHuy_Click"/>
+        <Label Content="Chọn Tác Vụ" HorizontalAlignment="Left" Margin="190,242,0,0" VerticalAlignment="Top" FontSize="15"/>
+
+    </Grid>
+</Window>
