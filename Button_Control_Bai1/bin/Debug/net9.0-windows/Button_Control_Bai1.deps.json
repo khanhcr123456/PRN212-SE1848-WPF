@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Button_Control_Bai1/1.0.0": {
+        "runtime": {
+          "Button_Control_Bai1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Button_Control_Bai1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
